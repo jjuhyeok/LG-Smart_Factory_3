@@ -9,3 +9,9 @@
 규모 : LB 1등/975팀 (총 1700여명 참가)
 
 =================================================
+
+What I Do
+1. Team Leader
+2. Make architecture
+3. decision model + hyperparameter
+4. think hypothesis(EDA)
