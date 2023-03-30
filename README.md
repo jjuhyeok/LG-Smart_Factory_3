@@ -9,7 +9,12 @@
 =================================================
 
 What I Do
+
 1. Team Leader
 2. Make architecture
 3. decision model + hyperparameter
 4. think hypothesis(EDA)
+
+
+=================================================
+
