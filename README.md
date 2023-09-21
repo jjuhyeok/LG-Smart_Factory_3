@@ -3,9 +3,7 @@
 ## 🏆 Result
 # **Public score 1st** 0.77428 | **Private score 5th** 0.69342
 
-주최 : LG AI Research
-
-주관 : DACON
+주최 : ```LG AI Research + LG Display```
 
 규모 : 총 1800여명 참가
 
