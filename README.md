@@ -80,3 +80,38 @@ private 채점 결과 5등이 되었다.
 더 자세한 인터뷰는    
 https://dacon.io/ranking/interview/259  
 ... 
+
+
+---
+
+## 📖 Dataset
+```
+Dataset Info.
+
+1. 학습(Train) 데이터셋 (39607개)
+
+설명: ID, X Feature(56개), Y Feature(14개)
+
+2. 테스트(Test) 데이터셋 (39608개)
+
+설명: ID, X Feature(56개)
+
+```
+
+
+## 🔧 Feature Engineering
+```
+
+smoothing
+- kalman filter, moving average, moving median, log
+분산 / 합 / 차
+
+```
+
+## 🎈 Modeling
+
+**Predict Model**
+```
+Autogluon
+Catboost
+```
