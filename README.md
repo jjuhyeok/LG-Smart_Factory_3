@@ -1,4 +1,4 @@
-# LG-AI_Radar [(Link)](https://dacon.io/competitions/official/236080/leaderboard)
+# LG-Smart_Factory [(Link)](https://dacon.io/competitions/official/236080/leaderboard)
 
 ## 🏆 Result
 # **Public score 1st** 0.77428 | **Private score 5th** 0.69342
