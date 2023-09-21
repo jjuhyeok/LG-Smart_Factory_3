@@ -1,4 +1,4 @@
-# LG-Smart_Factory [(Link)](https://dacon.io/competitions/official/236080/leaderboard)
+# LG-Smart_Factory [(Link)](https://dacon.io/competitions/official/236156/leaderboard)
 
 ## 🏆 Result
 # **Public score 1st** 0.77428 | **Private score 5th** 0.69342
@@ -36,7 +36,7 @@ AI 모델을 개발하여 **품질 편차를 최소화**해 생산 **경제성�
 그러자 public 점수가 정말 말도안되게 높아졌다. 2등과는 차이가 엄청 심한 압도적인 1등이었다.  
 voting 후 F1 Score는 0.77428을 기록했고 2등부터 7등까지는 0.7545 ~ 0.75 8등부터 20등까지는 0.74 ~ 0.71 의 F1 score를 기록하였다.  
 
-해커톤 대회가 종료되기 전 최종 채점받을 오직 **"1"개**의 csv를 제출해야 했었는데,  
+해커톤 대회가 종료되기 전 최종 채점받을 오직 **1개**의 csv를 제출해야 했었는데,  
 이때 정말 고민을 많이 하였다.  
 0.77428의 1등 score를 기록한 csv를 제출하는게 맞아 보였다.  
 하지만 온라인 예선때의 기억이 스쳐 지나갔다.  
