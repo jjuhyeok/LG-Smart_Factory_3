@@ -88,13 +88,34 @@ https://dacon.io/ranking/interview/259
 ```
 Dataset Info.
 
-1. 학습(Train) 데이터셋 (39607개)
+train.csv
+PRODUCT_ID : 제품의 고유 ID
+Y_Class : 제품 품질 상태(Target) 
+0 : 적정 기준 미달 (부적합)
+1 : 적합
+2 : 적정 기준 초과 (부적합)
+Y_Quality : 제품 품질 관련 정량적 수치
+LINE : 제품이 들어간 공정 LINE 종류 ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' 존재)
+PRODUCT_CODE : 제품의 CODE 번호 ('A_31', 'T_31', 'O_31' 존재)
+X_1 ~ X_3326 : 공정 과정에서 추출되어 비식별화된 변수
 
-설명: ID, X Feature(56개), Y Feature(14개)
 
-2. 테스트(Test) 데이터셋 (39608개)
+test.csv
+PRODUCT_ID : 제품의 고유 ID
+LINE : 제품이 들어간 공정 LINE 종류 ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' 존재)
+PRODUCT_CODE : 제품의 CODE 번호 ('A_31', 'T_31', 'O_31' 존재)
+X_1 ~ X_3326 : 공정 과정에서 추출되어 비식별화된 변수
 
-설명: ID, X Feature(56개)
+
+sample_submission.csv
+PRODUCT_ID : 제품의 고유 ID
+Y_Class : 예측한 제품 품질 상태
+0 : 적정 기준 미달 (부적합)
+1 : 적합
+2 : 적정 기준 초과 (부적합)
+
+실제 공정 과정에서의 데이터로, 보안상의 이유로 일부 변수가 비식별화 처리 되었습니다. (X변수)
+'LINE', 'PRODUCT_CODE'는 Train / Test 모두 동일한 종류가 존재합니다.
 
 ```
 
