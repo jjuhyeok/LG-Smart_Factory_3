@@ -122,10 +122,15 @@ Y_Class : 예측한 제품 품질 상태
 
 ## 🔧 Feature Engineering
 ```
+*Split
+ - 먼저, 현 데이터와 제가 알고 있는 공정 상황의 가설을 매칭시켜보고 싶었습니다.    
+데이터를 EDA 해본 결과 PRODUCT CODE와 LINE 피처로 데이터가 나누어지는 특성을 발견하였습니다.  
+제 가설 중 하나는 실제 공정에는 Shut Down 기간이 존재한다였었고, 이로인해 같은 PRODUCT CODE라도 값을 측정한 기계가 다름을 검증하였습니다.  
+그래서 실제로 split을 하여 모델링을 진행한 결과 모델 정확도가 증가하였고, 추가적으로 hierarchical하게 모델링 방식을 업그레이드 하였고,   
+압도적인 성능을 낼 수 있었습니다.   
 
-smoothing
-- kalman filter, moving average, moving median, log
-분산 / 합 / 차
+*Filtering
+ - nunique값이 1인 피처들은 필터링을 해주었습니다.  
 
 ```
 
@@ -133,6 +138,5 @@ smoothing
 
 **Predict Model**
 ```
-Autogluon
 Catboost
 ```
